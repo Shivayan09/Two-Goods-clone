@@ -229,4 +229,22 @@ html, body {
         object-fit: cover;
         overflow: hidden;
     }
+    #page3 {
+        flex-direction: column;
+    }
+    .believe-text {
+        font-size: 6vw;
+        height: 60vh;
+        width: 100%;
+        text-align: center;
+        padding: 0 5vw;
+        opacity: 0;
+    }
+    #believe1 {
+        line-height: 9vw;
+    }
+    .believe-lorem {
+        height: 40vh;
+        width: 100%;
+    }
 }
