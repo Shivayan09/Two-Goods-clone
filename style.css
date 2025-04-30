@@ -19,6 +19,11 @@ html, body {
     position: fixed;
     transform: translate(-50%, -50%) scale(1);
 }
+.navbar {
+    height: 15vh;
+    width: 100%;
+    margin-bottom: -100px;
+}
 #page1 {
     min-height: 100vh;
     width: 100%;
