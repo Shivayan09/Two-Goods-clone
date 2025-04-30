@@ -3,6 +3,13 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
+function navAnimation() {
+    gsap.from('.navbar', {
+        y:100, scale: 1, opacity: 0, delay: 0, duration: 1.5, stagger: 0.2
+    })
+}
+navAnimation()
+
 function videoconAnimation () {
     var videocon = document.querySelector('#video-container')
     var playbtn = document.querySelector('#play')
