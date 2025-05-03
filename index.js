@@ -67,5 +67,3 @@ document.querySelectorAll('#child1').addEventListener("mouseenter", function() {
         transform: 'translate(-50%, -50%) scale(1)'
     })
 })
-
-document.querrySelector('.navbar')
